@@ -21,5 +21,6 @@ class PokemonViewController: UIViewController {
     }
     
     @IBAction func optionBtnPressed(_ sender: UIButton) {
+        print(sender.title(for: .normal)!)
     }
 }
